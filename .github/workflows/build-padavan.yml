@@ -99,7 +99,7 @@ jobs:
         sed -i '/CONFIG_FIRMWARE_INCLUDE_ARIA/d' .config #删除配置项aria2
         sed -i '/CONFIG_FIRMWARE_INCLUDE_ARIA_WEB_CONTROL/d' .config #删除配置项Aria2 WEB control
         echo "CONFIG_FIRMWARE_INCLUDE_TRANSMISSION=y" >> .config #transmission
-        echo "CONFIG_FIRMWARE_INCLUDE_TRANSMISSION_WEB_CONTROL=y" >> .config # Transmission-Web-Control
+        echo "CONFIG_FIRMWARE_INCLUDE_TRANSMISSION_WEB_CONTROL=y" >> .config # Transmission Web Control
         echo "CONFIG_FIRMWARE_INCLUDE_ARIA=y" >> .config #aria2
         echo "CONFIG_FIRMWARE_INCLUDE_ARIA_WEB_CONTROL=y" >> .config #Aria2 WEB control
         #########################################################################################
